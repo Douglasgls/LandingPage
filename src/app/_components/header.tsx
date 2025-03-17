@@ -28,7 +28,7 @@ export default function Header() {
                              De desconto na primeira compra
                         </p> 
                          {/* FOTO DO GATO  */}
-                        <div className='absolute max-w-72 max-h-56  hidden bottom-0 right-0 lg:block lg:left-0 lg:ml-6'>
+                        <div className='absolute max-w-72 max-h-56  hidden bottom-0 right-0 lg:block'>
                             <Image src={catImg} alt="Foto do gato" quality={100} className='object-cover w-full h-full'/>
                         </div>
                     </div>
